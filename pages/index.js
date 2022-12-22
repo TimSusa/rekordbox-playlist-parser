@@ -1,6 +1,6 @@
 import CustomHead from '../components/MetaHead'
 import { useState } from "react";
-import { Parser } from 'm3u8-Parser'
+import { Parser } from 'm3u8-parser'
 
 var parser = new Parser();
 parser.addParser({
